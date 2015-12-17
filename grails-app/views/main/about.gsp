@@ -13,16 +13,32 @@
   <script src="/assets/browser.min.js"></script>
   <style>
   #header_content{
-    font-family: "Times New Roman";
+    font-family: "Arial";
+    font-style: normal;
+    font-size: 15px;
+  }
+  #body_content{
+    margin-top: 15px;
+    font-family: "Arial";
     font-style: normal;
     font-size: 15px;
   }
   #body_header{
-    font-family: "Times New Roman";
+    font-family: "Arial";
     font-size: 20px;
     color: black;
     font-style: italic;
     text-align: center;
+    margin-top: 10px;
+
+  }
+  #image_content{
+    margin-top: 15px;
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+
+
   }
   </style>
 </head>
@@ -57,15 +73,15 @@
     <div class="row">
       <div class="col-sm-8">
         
-          <p class="inner_content">
+          <p id="body_content">
             <strong> Teresa Harrison</strong> is a Professor in the Department of Communication, a Faculty Fellow affiliated with the Center for Technology in Government, and a faculty member affiliated with the Informatics Doctoral program, all at the University at Albany. Her research focuses on democratic processes in organizations, new information and communication technologies, and the relationship between democracy, electronic government, and new technologies. She has been studying electronic petitioning since 2014.
           </p>
           <a href="http://www.albany.edu/communication/t_harrison.php/">More Info</a>
-        
+       
       </div>
       <div class="col-sm-4">
         
-          <asset:image class="img-thumbnail" src="TeresaHarrison.jpg" alt="Teresa Harrison" style="width:304px;height:228px;"/>
+          <asset:image id="image_content" src="TeresaHarrison.jpg" alt="Teresa Harrison"/>
         
       </div>
   </div>
@@ -73,21 +89,21 @@
   <div class="row">
       <div class="col-sm-8">
        
-          <p class="inner_content">
-             <strong> S.S Ravi </strong> Ravi received his Ph.D. in Computer Science from the University of Pittsburgh, PA, in 1984. Since September 1984, he has been a faculty member in the Computer Science Department at the University at Albany -- State University of New York (UAlbany), where he is currently a Distinguished Teaching Professor.  During his sabbaticals from UAlbany, he has held visiting positions at Los Alamos National Laboratory and Virginia Bioinformatics Institute (which is part of Virginia Tech). His areas of interest include design and analysis of algorithms, data mining, network science, discrete dynamical systems, wireless networks and fault-tolerant computing.
+          <p id="body_content">
+             <strong> S.S Ravi </strong> received his Ph.D. in Computer Science from the University of Pittsburgh, PA, in 1984. Since September 1984, he has been a faculty member in the Computer Science Department at the University at Albany -- State University of New York (UAlbany), where he is currently a Distinguished Teaching Professor.  During his sabbaticals from UAlbany, he has held visiting positions at Los Alamos National Laboratory and Virginia Bioinformatics Institute (which is part of Virginia Tech). His areas of interest include design and analysis of algorithms, data mining, network science, discrete dynamical systems, wireless networks and fault-tolerant computing.
           </p>
           
       </div>
       <div class="col-sm-4">
          
-        <asset:image class="img-thumbnail" src="Ravi.jpg" alt="Teresa Harrison" style="width:304px;height:228px;"/>
+        <asset:image id="image_content" src="Ravi.jpg" alt="S.S Ravi" />
         
       </div>
   </div>
   <div class="row">
       <div class="col-sm-8">
        
-          <p class="inner_content">
+          <p id="body_content">
             <strong>Dr. Feng chen</strong> is currently an assistant professor at the Computer Science department at University at Albany. He was previously a postdoctoral researcher in the Event and Pattern Detection (EPD) Laboratory and the iLab at Carnegie Mellon University, where he worked with Dr. Daniel B. Neill and Dr. Ramayya Krishnan. He got his Ph.D. from the Computer Science Department at Virginia Polytechnic Institute and State University under the advising of Dr. Chang-Tien Lu in Dec. 2012. 
 
           </p>
@@ -97,14 +113,14 @@
     </div>
     <div class="col-sm-4">
       
-        <asset:image class="img-thumbnail" src="Feng_Photo2.jpg" alt="Catherine Dumas" style="width:304px;height:228px;"/>
+        <asset:image id="image_content" src="Feng_Photo2.jpg" alt="Catherine Dumas" />
       
     </div>
   </div>
   <div class="row">
       <div class="col-sm-8">
        
-          <p class="inner_content">
+          <p id="body_content">
             <strong>Catherine Dumas</strong> is a PhD Candidate in Informatics in the College of Engineering & Applied Sciences (CEAS) at the University of Albany, State University of New York, with a primary specialization in Knowledge Organization and Management and a secondary in Information in Organizational Environments. She has a MS in Information Science from the University of Albany and a BA in English from the College of Saint Rose, Albany, NY. Her research interests include: analyzing e-petitioning behavior and systems, information diffusion in social networks, social network analysis in online communities and organizations, data analytics, collective action, social informatics, HCI, usability testing, and open source.
           </p>
           <a href="https://www.linkedin.com/pub/catherine-dumas/5/480/95"/>LinkedIn</a>
@@ -113,34 +129,34 @@
     </div>
     <div class="col-sm-4">
       
-        <asset:image class="img-thumbnail" src="CatherineDumas.jpg" alt="Catherine Dumas" style="width:304px;height:228px;"/>
+        <asset:image id="image_content" src="CatherineDumas.jpg" alt="Catherine Dumas" />
 
     </div>
   </div>
   <div class="row">
       <div class="col-sm-8">
        
-          <p class="inner_content">
+          <p id="body_content">
             <strong>Loni Hagen </strong> is a PhD Candidate in Informatics with a primary specialization in e-government, natural language processing, machine learning, and social network analysis. She has conducted a natural language processing and data mining study to explore the topical structure of e-petitions. Her current research includes concept identification system, topic and issue extraction, and semantic-frame parsing of petition text.
           </p>
         
     </div>
     <div class="col-sm-4">
       
-        <asset:image class="img-thumbnail" src="LoniHagen.jpg" alt="Catherine Dumas" style="width:304px;height:228px;"/>
+        <asset:image id="image_content" src="LoniHagen.jpg" alt="Catherine Dumas"/>
      
     </div>
   </div>
   <div class="row">
     <div class="col-sm-8">
       
-        <p class="inner_content">
+        <p id="body_content">
         <strong>Timothy T. Fake  </strong> is a graduate of the University at Albany with a BA in Philosophy and an MS in Computer Science.  He currently works as a Senior Software Engineer for General Dynamics but collaborates regularly on e-petitioning research projects.  His major intellectual interests are data mining, machine learning, and their applications to the natural sciences.
       </p>
     </div>
   <div class="col-sm-4">
     
-      <asset:image class="img-thumbnail" src="Tim pic 2015.png" alt="Tim" style="width:304px;height:228px;"/>
+      <asset:image id="image_content" src="Tim pic 2015.png" alt="Tim" />
    
   </div>
 </div>

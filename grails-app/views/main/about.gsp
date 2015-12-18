@@ -67,8 +67,15 @@
     </div>
   </div>
   <div class="container">
+    <ul class="nav nav-tabs">
+        <li class="nav active"><a href="#Research_Team" data-toggle="tab">Research Team</a></li>
+        <li class="nav"><a href="#Developer" data-toggle="tab">Developers</a></li>
+
+      </ul>
+    <div class="tab-content">
+      <div class="tab-pane fade in active" id="Research_Team">
     <div id="body_header">
-        <h2>Our Team</h2>
+        <h2>Researchers</h2>
     </div>
     <div class="row">
       <div class="col-sm-8">
@@ -159,6 +166,61 @@
       <asset:image id="image_content" src="Tim pic 2015.png" alt="Tim" />
    
   </div>
+</div>
+</div>
+<div class="tab-pane fade" id="Developer">
+<div id="body_header">
+        <h2>Developers</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-8">
+        
+          <p class="inner_content">
+            <strong> Umair </strong> is a Professor in the Department of Communication, a Faculty Fellow affiliated with the Center for Technology in Government, and a faculty member affiliated with the Informatics Doctoral program, all at the University at Albany. Her research focuses on democratic processes in organizations, new information and communication technologies, and the relationship between democracy, electronic government, and new technologies. She has been studying electronic petitioning since 2014.
+          </p>
+          <a href="http://www.albany.edu/communication/t_harrison.php/">More Info</a>
+        
+      </div>
+      <div class="col-sm-4">
+       
+          <asset:image id="image_content" src="TeresaHarrison.jpg" alt="Teresa Harrison"/>
+        
+      </div>
+  </div>
+    <div class="row">
+      <div class="col-sm-8">
+        
+          <p class="inner_content">
+            <strong> Lim </strong> is a Professor in the Department of Communication, a Faculty Fellow affiliated with the Center for Technology in Government, and a faculty member affiliated with the Informatics Doctoral program, all at the University at Albany. Her research focuses on democratic processes in organizations, new information and communication technologies, and the relationship between democracy, electronic government, and new technologies. She has been studying electronic petitioning since 2014.
+          </p>
+          <a href="http://www.albany.edu/communication/t_harrison.php/">More Info</a>
+        
+      </div>
+      <div class="col-sm-4">
+        
+          <asset:image id="image_content" src="TeresaHarrison.jpg" alt="Teresa Harrison"/>
+        
+      </div>
+  </div>
+
+   <div class="row">
+      <div class="col-sm-8">
+        
+          <p class="inner_content">
+            <strong> Jinal  </strong> is a Current graduate Student in Suny albany in computer Science Major, interest area is web development. technology : HTML, css , javascript,java , j2ee. 
+          </p>
+          
+        
+      </div>
+      <div class="col-sm-4">
+        
+  
+        
+      </div>
+  </div>
+
+
+
 </div>
 </div>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>about.html</title>
+  <title>About</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="/assets/bootstrap.min.css">
@@ -57,11 +57,11 @@
           <br><br>
           Our work has focused on:
           <br>
-           1 a study that compares data on e-petitions and signature accumulation dynamics characteristic of WtP with data reported from e-petitioning studies in Great Britain and in Germany (see Harrison et al. 2014)
+           1) A study that compares data on e-petitions and signature accumulation dynamics characteristic of WtP with data reported from e-petitioning studies in Great Britain and in Germany (see Harrison et al. 2014)
           <br>
-          2 the development of two case studies using social networking methods of e-petitioning activities that took place during the period of time directly following the tragic Sandy Hook shootings on December 12, 2012
+          2) The development of two case studies using social networking methods of e-petitioning activities that took place during the period of time directly following the tragic Sandy Hook shootings on December 12, 2012
           <br>
-           3 the use of natural language processing methods to explore naturally emerging citizen-generated topics central to e-petitions found on We the People.
+           3) The use of natural language processing methods to explore naturally emerging citizen-generated topics central to e-petitions found on We the People.
           </p>
       </div>
     </div>
@@ -81,7 +81,7 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Teresa Harrison</strong> is a Professor in the Department of Communication, a Faculty Fellow affiliated with the Center for Technology in Government, and a faculty member affiliated with the Informatics Doctoral program, all at the University at Albany. Her research focuses on democratic processes in organizations, new information and communication technologies, and the relationship between democracy, electronic government, and new technologies. She has been studying electronic petitioning since 2014.
+            <strong>Teresa Harrison</strong> is a Professor in the Department of Communication, a Faculty Fellow affiliated with the Center for Technology in Government, and a faculty member affiliated with the Informatics Doctoral program, all at the University at Albany. Her research focuses on democratic processes in organizations, new information and communication technologies, and the relationship between democracy, electronic government, and new technologies. She has been studying electronic petitioning since 2014.
           </p>
           <a href="http://www.albany.edu/communication/t_harrison.php/">More Info</a>
        
@@ -111,7 +111,7 @@
       <div class="col-sm-8">
        
           <p id="body_content">
-            <strong>Dr. Feng chen</strong> is currently an assistant professor at the Computer Science department at University at Albany. He was previously a postdoctoral researcher in the Event and Pattern Detection (EPD) Laboratory and the iLab at Carnegie Mellon University, where he worked with Dr. Daniel B. Neill and Dr. Ramayya Krishnan. He got his Ph.D. from the Computer Science Department at Virginia Polytechnic Institute and State University under the advising of Dr. Chang-Tien Lu in Dec. 2012. 
+            <strong>Dr. Feng Chen</strong> is currently an assistant professor at the Computer Science department at University at Albany. He was previously a postdoctoral researcher in the Event and Pattern Detection (EPD) Laboratory and the iLab at Carnegie Mellon University, where he worked with Dr. Daniel B. Neill and Dr. Ramayya Krishnan. He got his Ph.D. from the Computer Science Department at Virginia Polytechnic Institute and State University under the advising of Dr. Chang-Tien Lu in Dec. 2012. 
 
           </p>
           <a href="http://www.cs.albany.edu/~fchen/
@@ -191,14 +191,14 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Lim </strong> is a Professor in the Department of Communication, a Faculty Fellow affiliated with the Center for Technology in Government, and a faculty member affiliated with the Informatics Doctoral program, all at the University at Albany. Her research focuses on democratic processes in organizations, new information and communication technologies, and the relationship between democracy, electronic government, and new technologies. She has been studying electronic petitioning since 2014.
+            <strong> William May </strong> studies economics as an undergraduate at the State University of New York, Albany. He is interested in using computational statistics and mathematical modeling to better understand processes in economics and politics.
           </p>
           <a href="http://www.albany.edu/communication/t_harrison.php/">More Info</a>
         
       </div>
       <div class="col-sm-4">
         
-          <asset:image id="image_content" src="TeresaHarrison.jpg" alt="Teresa Harrison"/>
+          <asset:image id="image_content" src="willmay.jpg" alt="William May"/>
         
       </div>
   </div>
@@ -207,10 +207,9 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Jinal  </strong> is a Current graduate Student in Suny albany in computer Science Major, interest area is web development. technology : HTML, css , javascript,java , j2ee. 
+            <strong> Jinal Patel </strong> is a current graduate student at SUNY Albany in Computer Science Major. Her interest area is web development with technologies such as HTML, CSS, Javascript, Java, J2EE. 
           </p>
           
-        
       </div>
       <div class="col-sm-4">
         
@@ -231,19 +230,5 @@
 	<script type="text/javascript" src="/assets/angular.min.js"></script>
 	<script type="text/javascript" src="/assets/jquery.min.js"></script>
 	<script type="text/javascript" src="/assets/bootstrap.min.js"></script>
-<!--==============================
-              footer
-=================================-->
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        
-        <div class="copyright"> &copy; <span id="copyright-year"></span> | Copyright © 2015 <a href="#">CSI 518 Lab3 Team3</a> 
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
 </body>
 </html>

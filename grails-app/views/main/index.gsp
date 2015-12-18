@@ -17,21 +17,18 @@
 
 	<div class="graph-images">
 		<div class="container text-center">
-			<h2>Graphs</h2>
+			<h2>E-petitioning Trends (Graphs)</h2>
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-3">
+				<div class="col-xs-4">
 					<asset:image src="TopSevenDistribution.jpg" class="trend-graph-image" alt="Top Seven Distribution"/>
 				</div>
-				<div class="col-xs-3">
+				<div class="col-xs-4">
 					<asset:image src="WtpCategoryDistribution.jpg" class="trend-graph-image" alt="WtP Category Distribution"/>
 				</div>
-				<div class="col-xs-3">
-					<img class="trend-graph-image" src="http://hdwallpaperia.com/wp-content/uploads/2013/10/Cool-Light-Backgrounds.jpg" />
-				</div>
-				<div class="col-xs-3">
-					<img class="trend-graph-image" src="http://hdwallpaperia.com/wp-content/uploads/2013/10/Cool-Light-Backgrounds.jpg" />
+				<div class="col-xs-4">
+					<asset:image src="ProGunControlPetitions.png" class="trend-graph-image" alt="Pro Gun Control Petitions"/>
 				</div>
 			</div>
 		</div>

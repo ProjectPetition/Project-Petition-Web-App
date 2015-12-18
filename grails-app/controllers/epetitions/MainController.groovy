@@ -26,4 +26,20 @@ class MainController
 	def signup() {
 		render (view: 'signup.gsp')
 	}
+
+	def download() {
+
+		//def file = new File("/assets/documents")
+
+		//if (file.exists()) {
+		//	response.setContentType("application/octet-stream")
+		//	response.setHeader("Content-disposition", "filename=${file.name}")
+		//	response.outputStream << file.bytes
+		//	return
+		//}
+		//render(file: new File(absolutePath), fileName: "book.pdf")
+	}
+
+
+
 }

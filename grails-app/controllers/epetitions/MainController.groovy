@@ -1,20 +1,13 @@
 package epetitions
-import groovy.sql.Sql
 
 class MainController
 {
-	// doesn't work, some issue with the database metadata?
-	//def dataSource
 
 	def index() {
-		Petition p = Petition.read(1982541)
-
-		//def sql = new Sql(dataSource)
-		//def db = [url:'jdbc:mysql://127.0.0.1:3306/website', user:'root', password:'root', driver:'org.h2.Driver']
-		//def sql = Sql.newInstance(db.url, db.user, db.password, db.driver)
-		//def temp = sql.rows("select * from petitions limit 10")
-		//[temp: temp, sql:sql]
-		[ p:p ]
+		//List p = Petition.getAll()
+		List sigCounts = SignatureCount.findAllByDateBetween(new Date() - 2, new Date() - 1).sort{-it.count}
+		List p = sigCounts.collect{it.petition}
+		[p:p, sigCounts:sigCounts]
 	}
 
 	def responses() {

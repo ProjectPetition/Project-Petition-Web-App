@@ -13,22 +13,22 @@
   <script src="/assets/browser.min.js"></script>
   <style>
   #header_content{
-    font-family: "Arial";
+    font-family: "Georgia";
     font-style: normal;
     font-size: 15px;
   }
   #body_content{
     margin-top: 15px;
-    font-family: "Arial";
+    font-family: "Georgia";
     font-style: normal;
     font-size: 15px;
   }
   #body_header{
-    font-family: "Arial";
+    font-family: "Georgia";
     font-size: 20px;
     color: black;
     font-style: italic;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 10px;
 
   }

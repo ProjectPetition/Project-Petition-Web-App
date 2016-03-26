@@ -9,4 +9,4 @@ build/
 .project
 .settings
 .classpath
-secrets.yml
+grails-app/conf/application.yml

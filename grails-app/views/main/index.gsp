@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Home</title>
+  <title>Home</title>
 </head>
 <body>
 
@@ -47,7 +47,7 @@
 		      <div class="col-xs-6">
 			<h4>${p[2 * i + i2].title}</h4>
 			<p>${p[2 * i + i2].signatureCounts.findAll({!it.forecast}).size()} days old</p>
-			<p>Signature counts: ${p[2 * i + i2].signatureCounts.sort{it.date}.collectEntries{[(it.date.getDateString()):it.count]}}</p>
+			<div id="graph${2 * i + i2}"></div>
 			<a href="${p[2 * i + i2].url}">Link to petition</a>
 		      </div>
 		    </g:each>
@@ -56,9 +56,42 @@
 	</div>
 
 	<script type="text/babel" src="/assets/components/NavigationBar.js"></script>
-
 	<script type="text/javascript" src="/assets/jquery.min.js"></script>
 	<script type="text/javascript" src="/assets/bootstrap.min.js"></script>
-
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.8.0/metricsgraphics.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.8.0/metricsgraphics.min.css">
+	<script>
+	 <g:each in="${0..3}" var="i">
+	 d3.json('/main/forecast?id=${p[i].id}', function(data) {
+	   data = MG.convert.date(data, 'date');
+	   var marker = [{
+             'date': new Date('${new java.util.Date((long)p[i].deadline * 1000).format("yyyy-MM-dd")}T00:00:00.000Z'),
+             'label': 'Deadline'
+	   }];
+	   MG.data_graphic({
+             title: "Forecast:",
+             description: "A forecast of the petition's future signatures. The gray region is a 90% confidence interval",
+             data: data,
+	     interpolate: 'basic',
+	     baselines: [{value: 100000, label: 'Success'}],
+             width: 500,
+             height: 350,
+             right: 40,
+	     markers: marker,
+             area: false,
+             target: '#graph${i}',
+             show_secondary_x_label: false,
+             show_confidence_band: ['l', 'u'],
+             x_extended_ticks: false,
+	     //x_accessor: 'Date'
+	     //y_accessor: 'Signatures/Predicted Signatures'
+	     x_label: 'Date',
+	     y_label: 'Signatures'
+	   });
+	 });
+	</g:each>
+	</script>
 </body>
 </html>

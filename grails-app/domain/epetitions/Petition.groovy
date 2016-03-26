@@ -5,6 +5,7 @@ class Petition {
   String body
   String url
   Integer created
+  Integer deadline
 
   static mapping = {
     table 'petitions'

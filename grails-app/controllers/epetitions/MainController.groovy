@@ -4,10 +4,30 @@ class MainController
 {
 
 	def index() {
-		//List p = Petition.getAll()
-		List sigCounts = SignatureCount.findAllByDateBetween(new Date() - 2, new Date() - 1).sort{-it.count}
+                // trying to get the trending petitions:
+		List sigCounts = SignatureCount.findAllByForecastAndDateGreaterThan(false, new Date() - 2).sort{-it.count}
+		if (sigCounts.collect{it.count}.max() < 10) {
+		  // We The People is incredibly unreliable and may be missing most or all of the signatures from yesterday
+		  sigCounts = SignatureCount.findAllByForecastAndDateGreaterThan(false, new Date() - 3).sort{-it.count}
+		}
 		List p = sigCounts.collect{it.petition}
-		[p:p, sigCounts:sigCounts]
+
+
+		//List p2 = Petition.getAll()
+		[p:p]
+	}
+
+	def forecast(int id) {
+	  // providing information for the forecast graphs
+	  List counts = Petition.get(id).signatureCounts.sort{it.date}
+	  List c2 = counts.collect{[value:it.cumulative, date:it.date.format("yyyy-MM-dd"), l:it.lowerBound, u:it.upperBound]}
+	  for (c in c2) {
+	    if (c["l"] == null) { c["l"] = c.value }
+	    if (c["u"] == null) { c["u"] = c.value }
+	  }
+	  render(contentType: "text/json") {
+	    c2
+	  }
 	}
 
 	def responses() {

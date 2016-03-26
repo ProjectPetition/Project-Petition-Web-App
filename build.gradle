@@ -78,8 +78,3 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = gradleWrapperVersion
 }
-
-bootRun {
-    // local.config.location is just a random name. You can use yours.
-    jvmArgs = ['-Dlocal.config.location=secrets.yml']
-}

@@ -14,3 +14,16 @@ body {
   text-shadow: #000 0.1em 0.1em 0.7em;
   margin-bottom: 1em;
 }
+
+.trends-row h4 {height: 50px;}
+
+/* Style tweaks for the forecast graphs */
+svg {background: #FFF;}
+.mg-header {font-size: inherit;}
+.mg-x-axis text, .mg-y-axis text {font-size: inherit;}
+.mg-x-axis .label, .mg-y-axis .label {
+  font-size: inherit;
+  text-transform: none;
+}
+.mg-markers text {font-size: 1rem;}
+.mg-baselines text {font-size: 1rem;}

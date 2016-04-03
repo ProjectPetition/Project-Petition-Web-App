@@ -11,6 +11,7 @@
         <asset:javascript src="application.js"/>
 
         <asset:stylesheet src="bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.8.0/metricsgraphics.min.css">
         <asset:stylesheet src="main.css" />
         <asset:stylesheet src="home.css" />
 

@@ -46,8 +46,8 @@
 		    <g:each in="${0..1}" var="i2">
 		      <div class="col-xs-6">
 			<h4>${p[2 * i + i2].title}</h4>
-			<p>${p[2 * i + i2].signatureCounts.findAll({!it.forecast}).size()} days old</p>
-			<div id="graph${2 * i + i2}"></div>
+			<p>Deadline: ${new java.util.Date((long)p[2 * i + i2].deadline * 1000).format("MMM d yyyy, h:mm a")}</p>
+			<div class="forecast" id="graph${2 * i + i2}" style="text-align:center"></div>
 			<a href="${p[2 * i + i2].url}">Link to petition</a>
 		      </div>
 		    </g:each>
@@ -61,37 +61,41 @@
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
 	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.8.0/metricsgraphics.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.8.0/metricsgraphics.min.css">
 	<script>
 	 <g:each in="${0..3}" var="i">
 	 d3.json('/main/forecast?id=${p[i].id}', function(data) {
 	   data = MG.convert.date(data, 'date');
 	   var marker = [{
-             'date': new Date('${new java.util.Date((long)p[i].deadline * 1000).format("yyyy-MM-dd")}T00:00:00.000Z'),
+             'date': new Date('${new java.util.Date((long)p[i].deadline * 1000)}'),
              'label': 'Deadline'
 	   }];
 	   MG.data_graphic({
              title: "Forecast:",
-             description: "A forecast of the petition's future signatures. The gray region is a 90% confidence interval",
+             description: "A forecast of the petition's future signatures. The gray region is a 95% confidence interval",
              data: data,
 	     interpolate: 'basic',
 	     baselines: [{value: 100000, label: 'Success'}],
-             width: 500,
-             height: 350,
+             width: 400,
+             height: 320,
              right: 40,
+	     left: 90,
+	     top: 60,
+             bottom: 60,
+	     mouseover: function(d) {
+               d3.select('#graph${i} svg .mg-active-datapoint')
+		 .text('Date: ' + d.date.toDateString().slice(4) + ', Signatures: ' + d.value.toLocaleString());
+             },
 	     markers: marker,
              area: false,
              target: '#graph${i}',
              show_secondary_x_label: false,
              show_confidence_band: ['l', 'u'],
              x_extended_ticks: false,
-	     //x_accessor: 'Date'
-	     //y_accessor: 'Signatures/Predicted Signatures'
 	     x_label: 'Date',
 	     y_label: 'Signatures'
 	   });
 	 });
-	</g:each>
+	 </g:each>
 	</script>
 </body>
 </html>

@@ -220,6 +220,25 @@
   </div>
 
 
+<div class="row">
+      <div class="col-sm-8">
+        
+          <p id="body_content">
+            <strong> Ji Yong Park </strong>  current undergraduate student at SUNY Albany in Computer Science Major. His interests are software engineering, sever development, and web development.
+          </p>
+          
+        
+      </div>
+      <div class="col-sm-4">
+       
+          <asset:image id="image_content" src="Ji.jpg" alt="Ji Yong Park"/>
+        
+      </div>
+  </div>
+
+
+
+
 
 </div>
 </div>

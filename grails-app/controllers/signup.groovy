@@ -6,10 +6,6 @@ class signup
 	 String lastName
 	 String email
 
-	 String toString () = 
-	 {
-	 	"${this.class.name} : $id"
-	 }
 	 boolean equals(other)
 	 {
 	 	if(other?.is(this)) return true

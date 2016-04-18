@@ -82,9 +82,8 @@ dataSource:
     jmxExport: true
     driverClassName: com.mysql.jdbc.Driver
     dialect: org.hibernate.dialect.MySQL5Dialect
-    url: jdbc:mysql://127.0.0.1:3306/website
-    username: root
-    password: root
+    url: jdbc:mysql://127.0.0.1:3307/website
+    username: wm177874
 
 environments:
     development:

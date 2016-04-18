@@ -43,7 +43,7 @@
 				</div>
 					<div class="container header-container">
 						<div class="new-account-message">Sign up if you don't already have an account...</div>
-							<a href="signup.html" class="btn btn-primary" type="submit">Create a new account</a>
+							<a href="signup.gsp" class="btn btn-primary" type="submit">Create a new account</a>
 						</div>
 					</div>
 				<div class="col-xs-4">

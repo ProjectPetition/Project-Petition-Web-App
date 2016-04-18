@@ -10,3 +10,4 @@ build/
 .settings
 .classpath
 grails-app/conf/application.yml
+.asscache

@@ -12,9 +12,21 @@ class MainController
 		}
 		List p = sigCounts.collect{it.petition}
 
+		// get issue counts
+		def issueCounts = PetitionIssue.findAllByDateGreaterThan(new Date() - 14).collect{it.issue}.countBy{it}
+		// List issueList = issues.collect{it.issue}
+		// Set uniqueIssues = issueList.toSet()
+		// def issueCounts = issueList.countBy { it }
+
+		// Integer x = 0
+		// for (item in uniqueIssues) {
+		//   issueCounts[x] = new Array()
+		//   issueCounts[x][1] = 
+		//   i
+		// }
 
 		//List p2 = Petition.getAll()
-		[p:p]
+		[p:p, issueCounts:issueCounts]
 	}
 
 	def forecast(int id) {

@@ -12,7 +12,6 @@
 				<h2>Welcome to Project Petition</h2>
 				<h4>This website makes it possible for interested users of We the People to quickly learn about trending petitions, and to track petitions of interest over their 30 day life span.  Once 30 days is past, a petition either achieves the threshold of 100,000 signatures and thus merits a response from the Obama Administration or the petition is removed from the We the People petition platform.</h4>
 				<h4>Trending petition: "${p[0].title}"</h4>
-				<h4>First Issue: "${issueCounts}"</h4>
 			</div>
 		</div>
 	</div>

@@ -1,1 +1,11 @@
-.jumbotron{background:url(http://www.lancefarrow.ca/wp-content/uploads/2014/06/triangle-background-17.png) no-repeat center center}.trend-graph-image{width:100%}.graph-images{margin-bottom:2em}.trends-row{margin-bottom:1em}
+.jumbotron{
+	/*background:url(/assets/background1.jpg) no-repeat center center; /* Lance Farrow "Free Background - Triangles" June 27 2014 Online Image April 22th 2016 modfied version urL: <http://www.lancefarrow.ca/free-backgrounds-triangles>ßß*/
+	background:url(/assets/background2.png) no-repeat center center;/* Chris Katantousis "retina wallpaper" January 10, 2014 Online Image April 22th 2016 url:<https://www.flickr.com/photos/enasteron/11868920524/in/photolist-eiMJ68-68xfGk-oWdrjq-g5VALr-4uu8xM-52xYf4-mFXKwi-cfuw6j-4uyjUj-j5PjyL-3kJZ7d-rzMdbi-qdxUdx-6rk6K9-oUdMTN-cfrJ1S-9onDUx-sf28bQ-4uu9fD-5gbFpx-8dvbE6-52CcGE-pWiSDa-9muoDW-oDLy4S-fQovcH-hX49P5-gSMre2-abpxwt-8hkaJx-boiWqu-4uycms-ctHVff-jR7JKJ-cfuLKo-s88Vji-dZmKfK-i7hcp5-99V5iY-8hkaYF-bmepVu-4E6gXq-qmQD7E-8hkaMk-qdHQoc-8YcDJ6-dYFdSB-4uugWk-pW9YLj-swyX9k>*/
+	background-size: 100% 100%;
+	color:white;
+	
+	} /*home background*/ /*signup background*/ /*login background*/
+
+	.trend-graph-image{width:100%}
+	.graph-images{margin-bottom:2em}
+	.trends-row{margin-bottom:1em}

@@ -7,7 +7,7 @@
 	<div id="nav_bar"></div>
 
 	<div class="jumbotron">
-		<div class="container text-center">
+		<div class="container text-left">
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Welcome to Project Petition</h2>
 				<h4>This website makes it possible for interested users of We the People to quickly learn about trending petitions, and to track petitions of interest over their 30 day life span.  Once 30 days is past, a petition either achieves the threshold of 100,000 signatures and thus merits a response from the Obama Administration or the petition is removed from the We the People petition platform.</h4>
@@ -17,7 +17,7 @@
 	</div>
 
 	<div class="graph-images">
-		<div class="container text-center">
+		<div class="container text-left">
 			<h2>E-petitioning Trends (Graphs)</h2>
 		</div>
 		<div class="container">
@@ -37,7 +37,7 @@
 
 	<div class="container">
 
-		<div class="container text-center">
+		<div class="container text-left">
 			<h2>Trending Petitions</h2>
 		</div>
 

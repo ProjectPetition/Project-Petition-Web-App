@@ -24,5 +24,13 @@
     
     <body>
         <g:layoutBody/>
+
+    <div id="footer">
+    <h4> link: </h4>
+    <a href="http://www.albany.edu"> Ualbany </a>
+    <a href="https://petitions.whitehouse.gov"> petition </a>
+    <a href="https://www.change.org"> change </a>
+    </div>
+
     </body>
 </html>

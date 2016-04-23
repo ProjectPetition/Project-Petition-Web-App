@@ -47,7 +47,7 @@
   <div id="nav_bar"></div>
 
     <div class="jumbotron">
-      <div class="container text-center">
+      <div class="container text-left">
       <div class="col-lg-10 col-lg-offset-1">
         <h2>About Project Petition</h2>
           <p id="header_content">

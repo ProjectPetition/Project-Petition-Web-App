@@ -1,8 +1,9 @@
 .jumbotron {
-  background: url(/assets/background10.jpg) no-repeat center center; /* Philippe Put "glamour studio0105" Taken on September 21, 2013 Online image filckr.com April 22th 2016  url:<http://www.flickr.com/photos/34547181@N00/986222184/in/photolist-g2ut4w-cwqqwq-7XbUTU-gc7mnv-bnmKUX-iu1wnK-4TJUJq-ebzwPU-qQb7Ei-mJan5u-8g49mC-pe2GyJ-axanuy-dB9Gxd-cfu61E-jGS3M4-v1FQMn-hhGQEY-dRVLDz-kzb5nw-cKer5s-bJ2Tcc-4UV6D7-4U18K1-ceYpbJ-qwcFFJ-bNaYNv-d1hCBU-aoYkym-mndtU1-nsGtBg-pjhQdG-oHDThM-cvhE2y-axanro-oHReqm-gSMioG-o8MaNN-7Xa2M2-axanqm-axanoJ-r1rX9h-pxFHgE-4WQti1-cfpKDo-75zEfJ-9dRLrp-qeiapN-dRVJNe-cfpHjC>*/
+  background:url(/assets/background3.jpg) no-repeat center center; /* Lance Farrow "Free Background - Triangles" June 27 2014 Online Image April 22th 2016 modfied version urL: <http://www.lancefarrow.ca/free-backgrounds-triangles>*/
+  /*background: url(/assets/background10.jpg) no-repeat center center; /* Image used with attribution under Creative Commons License CC BY // Philippe Put "glamour studio0105" Taken on September 21, 2013 Online image filckr.com April 22th 2016  url:<http://www.flickr.com/photos/34547181@N00/986222184/in/photolist-g2ut4w-cwqqwq-7XbUTU-gc7mnv-bnmKUX-iu1wnK-4TJUJq-ebzwPU-qQb7Ei-mJan5u-8g49mC-pe2GyJ-axanuy-dB9Gxd-cfu61E-jGS3M4-v1FQMn-hhGQEY-dRVLDz-kzb5nw-cKer5s-bJ2Tcc-4UV6D7-4U18K1-ceYpbJ-qwcFFJ-bNaYNv-d1hCBU-aoYkym-mndtU1-nsGtBg-pjhQdG-oHDThM-cvhE2y-axanro-oHReqm-gSMioG-o8MaNN-7Xa2M2-axanqm-axanoJ-r1rX9h-pxFHgE-4WQti1-cfpKDo-75zEfJ-9dRLrp-qeiapN-dRVJNe-cfpHjC>*/
   
   /*about background change..*/
-  background-size: cover;
+  background-size: 100% 100%;
   color:white;
   height: 500px;
   ;

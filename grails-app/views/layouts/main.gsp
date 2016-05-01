@@ -25,11 +25,16 @@
     <body>
         <g:layoutBody/>
 
+
     <div id="footer">
-    <h4> link: </h4>
-    <a href="http://www.albany.edu"> Ualbany </a>
-    <a href="https://petitions.whitehouse.gov"> petition </a>
-    <a href="https://www.change.org"> change </a>
+    <h4>Links</h4>
+    <dl>
+    <dd><a href="http://www.albany.edu"> Ualbany </a></dd>
+    <dd><a href="https://petitions.whitehouse.gov"> Petition </a></dd>
+    <dd><a href="https://www.change.org"> Change </a></dd>
+    <dd><a href="https://twitter.com/ualbany?lang=en"> twitter </a></dd>
+    <dd><a href="https://www.facebook.com/universityatalbany/?no_highlight_redirect=1&fref=ts&rf=104025636300886"> Facebook </a></dd>
+    </dl>
     </div>
 
     </body>

@@ -1,4 +1,4 @@
-<html>
+<html> 
 <head>
   <title>Home</title>
 </head>
@@ -31,6 +31,12 @@
 				<div class="col-xs-4">
 					<asset:image src="ProGunControlPetitions.png" class="trend-graph-image" alt="Pro Gun Control Petitions"/>
 				</div>
+				<!-- new thing. -->
+				</div>
+				<div class="col-xs-4">
+					<asset:image src="graph.png" class="trend-graph-image" alt="week_bar_chart"/>
+				</div>
+				<!-- new thing. -->
 			</div>
 		</div>
 	</div>
@@ -137,5 +143,9 @@
       }
     </script>
     <div id="chart_div"></div>
+
+    
+    
+
 </body>
 </html>

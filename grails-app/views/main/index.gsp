@@ -130,11 +130,11 @@
         ]);
 
         // Set chart options
-        var options = {'title':'petition',
+        var options = {'title':'Number of Issues',
                        'width':1300,
                        'height':800, 
                        vAxis: {title: "Issues"},
-                       hAxis: {title: "number of Signatures"}
+                       hAxis: {title: "number of Issues"}
                      };
 
         // Instantiate and draw our chart, passing in some options.

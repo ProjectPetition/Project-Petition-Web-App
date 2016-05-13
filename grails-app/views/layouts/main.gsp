@@ -27,7 +27,6 @@
 
 
     <div id="footer">
-    <h4>Links</h4>
     <dl>
     <dd><a href="http://www.albany.edu"> Ualbany </a></dd>
     <dd><a href="https://petitions.whitehouse.gov"> Whitehouse </a></dd>

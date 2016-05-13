@@ -30,10 +30,13 @@
     <h4>Links</h4>
     <dl>
     <dd><a href="http://www.albany.edu"> Ualbany </a></dd>
-    <dd><a href="https://petitions.whitehouse.gov"> Petition </a></dd>
+    <dd><a href="https://petitions.whitehouse.gov"> Whitehouse </a></dd>
     <dd><a href="https://www.change.org"> Change </a></dd>
     <dd><a href="https://twitter.com/ualbany?lang=en"> twitter </a></dd>
     <dd><a href="https://www.facebook.com/universityatalbany/?no_highlight_redirect=1&fref=ts&rf=104025636300886"> Facebook </a></dd>
+    <dd><a href="http://www.standunited.org/?keyword=petition%20website&matchtype=b&geoID=9004733&device=c&adpos=1t2&gclid=CNGms8zw1cwCFY5ZhgodcGQMjg"> StandUnited </a></dd>
+    <dd><a href="http://www.ipetitions.com/"> ipetition </a></dd>
+    <dd><a href="https://petitions.moveon.org//"> MoveOn </a></dd>
     </dl>
     </div>
 

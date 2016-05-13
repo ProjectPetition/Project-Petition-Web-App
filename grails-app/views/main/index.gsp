@@ -22,6 +22,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
+			<!-- not anymore. 
 				<div class="col-xs-4">
 					<asset:image src="TopSevenDistribution.jpg" class="trend-graph-image" alt="Top Seven Distribution"/>
 				</div>
@@ -31,12 +32,15 @@
 				<div class="col-xs-4">
 					<asset:image src="ProGunControlPetitions.png" class="trend-graph-image" alt="Pro Gun Control Petitions"/>
 				</div>
-				<!-- new thing. -->
 				</div>
+				-->
+				<!-- new thing. -->
 				<div class="col-xs-4">
 					<asset:image src="graph.png" class="trend-graph-image" alt="week_bar_chart"/>
 				</div>
 				<!-- new thing. -->
+				</div>
+				<!-- close row container -->
 			</div>
 		</div>
 	</div>

@@ -13,23 +13,26 @@ h4
 }
 
 #footer {
-    /*height: 100px;*/
+    /*height: 100px;*/ /*footer dd: 100px;*/
     font-size: 14px;
     
 }
-#footer dl {
+#footer dl 
+{
+
     text-align: center;
     display: inline-block;
 }
-#footer dd {
+#footer dd 
+{
     list-style-type: none;
     float: left;
-    width: 100px;
+    width: 110px;
     position: relative;
 }
 
-
-body {
+body 
+{
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #eee;

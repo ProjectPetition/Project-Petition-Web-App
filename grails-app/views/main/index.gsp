@@ -36,7 +36,7 @@
 				-->
 				<!-- new thing. -->
 				<div class="col-xs-4">
-					<asset:image src="graph.png" class="trend-graph-image" alt="week_bar_chart"/>
+					<asset:image src="Graph.png" class="trend-graph-image" alt="week_bar_chart"/>
 				</div>
 				<!-- new thing. -->
 				</div>

@@ -259,9 +259,10 @@
 
 
 	<script type="text/babel" src="/assets/components/NavigationBar.js"></script>
-
 	<script type="text/javascript" src="/assets/angular.min.js"></script>
 	<script type="text/javascript" src="/assets/jquery.min.js"></script>
 	<script type="text/javascript" src="/assets/bootstrap.min.js"></script>
+  </div>
+
 </body>
 </html>

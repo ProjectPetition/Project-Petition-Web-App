@@ -235,7 +235,21 @@
         
       </div>
   </div>
-
+<div class="row">
+      <div class="col-sm-8">
+        
+          <p id="body_content">
+            <strong> Kyungchan Lim </strong>  is student at SUNY at Albany studying in Computer Science. His interest is in web development and software engineering.
+          </p>
+          
+        
+      </div>
+      <div class="col-sm-4">
+       
+          <asset:image id="image_content" src=".jpg" alt="KyungchanLim"/>
+        
+      </div>
+  </div>
 
 
 

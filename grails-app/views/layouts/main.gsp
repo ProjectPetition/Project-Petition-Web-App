@@ -35,9 +35,12 @@
     <dd><a href="https://www.facebook.com/universityatalbany/?no_highlight_redirect=1&fref=ts&rf=104025636300886"> Facebook </a></dd>
     <dd><a href="http://www.standunited.org/?keyword=petition%20website&matchtype=b&geoID=9004733&device=c&adpos=1t2&gclid=CNGms8zw1cwCFY5ZhgodcGQMjg"> StandUnited </a></dd>
     <dd><a href="http://www.ipetitions.com/"> ipetition </a></dd>
-    <dd><a href="https://petitions.moveon.org//"> MoveOn </a></dd>
+    <dd><a href="https://petitions.moveon.org/"> MoveOn </a></dd>
+    <dd><a href="http://www.itas.kit.edu/pub/v/2009/liri09a.pdf"> Research </a></dd> 
     </dl>
     </div>
 
     </body>
 </html>
+
+

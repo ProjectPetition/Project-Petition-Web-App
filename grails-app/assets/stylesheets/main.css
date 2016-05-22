@@ -62,6 +62,7 @@ body
 .trends-row h4 {height: 50px;}
 
 /* Style tweaks for the forecast graphs */
+svg {Background-color: white;}
 .mg-header {font-size: inherit;}
 .mg-x-axis text, .mg-y-axis text {font-size: inherit;}
 .mg-x-axis .label, .mg-y-axis .label {

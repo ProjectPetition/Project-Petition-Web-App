@@ -26,12 +26,6 @@ var NavigationBar = React.createClass({
 						</ul>
 
 						<ul className="nav navbar-nav navbar-right">
-							<li>
-								<a href="login">Login</a>
-							</li>
-							<li>
-								<a href="signup">Signup</a>
-							</li>
 						</ul>
 					</div>
 				</div>

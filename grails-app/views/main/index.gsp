@@ -11,7 +11,7 @@
 		<div class="col-lg-10 col-lg-offset-1" >  <!-- control size when website goes lg param. -->   <!-- "col-lg-8  col-lg-offset-2" offset push left side of padding space--> 
 		    <h2>Welcome to Project Petition</h2>
 		    <h4>This website makes it possible for interested users of We the People to quickly learn about trending petitions, and to track petitions of interest over their 30 day life span.  Once 30 days is past, a petition either achieves the threshold of 100,000 signatures and thus merits a response from the Obama Administration or the petition is removed from the We the People petition platform.</h4>
-		    <h4>Trending petition: <a href="${p[0].url}">"${p[0].title}"</a></h4>
+		    <h4>Trending ${'&'} petition: <a href="${p[0].url}">"${p[0].title}"</a></h4>
 		</div>
 	    </div>
 	</div>
@@ -117,16 +117,14 @@
 	     var data = google.visualization.arrayToDataTable([
 		 ['Issue', 'Frequency', { role: 'annotation' } ],
         	 <g:each in="${issueCounts.keySet()}" var="name">
-		 ['${name}', ${issueCounts[name]}, '${name}'],
+		 ['${name}', ${issueCounts[name]}, '${name.replace("&amp;", "and")}'],
         	 </g:each>
              ]);
 
              // Set chart options
-             var options = {'title':'Popular Issues:',
+             var options = {'title':'Issues:',
 			    'width':800,
 			    'height':600,
-			    chart: { title: 'Issue Popularity',
-				     subtitle: 'popularity by percentage' },
 			    hAxis: {title: "Frequency",
 				    format: '',
 				    minValue: 0,

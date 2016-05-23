@@ -18,7 +18,7 @@
 
 	<div class="graph-images">
 	    <div class="container text-left">
-		<h2>E-petitioning Trends (Graphs)</h2>
+		<h2>Popular Petitions:</h2>
 	    </div>
 	    <div class="container">
 		<div class="row" style="text-align:center">
@@ -31,13 +31,16 @@
 		</div>
 	    </div>
 	</div>
-	<div class="container" style="text-align:center">	
+	<div class="container" style="text-align:center">
+	    <div class="container text-left">
+		<h2>Petition Issues:</h2>
+	    </div>
 	    <div id="chart_div" style="display:inline-block"></div>
 	</div>
 
 	<div class="container">
 	    <div class="container text-left">
-		<h2>Trending Petitions</h2>
+		<h2 style="margin-top:50px">Trending Petitions:</h2>
 	    </div>
 
 	    <g:each in="${0..1}" var="i">
@@ -122,7 +125,7 @@
              ]);
 
              // Set chart options
-             var options = {'title':'Issues:',
+             var options = {'title':'Issue:',
 			    'width':800,
 			    'height':600,
 			    hAxis: {title: "Frequency",

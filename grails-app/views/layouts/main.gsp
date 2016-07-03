@@ -10,6 +10,7 @@
         <asset:stylesheet src="application.css"/>
         <asset:javascript src="application.js"/>
 
+	<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">	
         <asset:stylesheet src="bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.8.0/metricsgraphics.min.css">
         <asset:stylesheet src="main.css" />

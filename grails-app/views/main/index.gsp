@@ -71,7 +71,7 @@
 	     }];
 	     MG.data_graphic({
 		 title: "Forecast:",
-		 description: "A forecast of the petition's future signatures. The gray region is a 95% confidence interval",
+		 description: "A forecast of the petition's future signatures. The blue line is the most likely number of signatures the petition receives (according to our model), or the actual number of signatures if the date has already passed. The gray region is a 95% confidence interval",
 		 data: data,
 		 interpolate: 'basic',
 		 baselines: [{value: 100000, label: 'Success'}],

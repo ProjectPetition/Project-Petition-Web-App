@@ -26,19 +26,28 @@
         <g:layoutBody/>
 
 
-    <div id="footer">
-    <dl>
-    <dd><a href="http://www.albany.edu">UAlbany</a></dd>
-    <dd><a href="https://petitions.whitehouse.gov">We The People</a></dd>
-    <dd><a href="https://www.change.org">Change.org</a></dd>
-    <dd><a href="https://twitter.com/ualbany?lang=en">Twitter</a></dd>
-    <dd><a href="https://www.facebook.com/universityatalbany/?no_highlight_redirect=1&fref=ts&rf=104025636300886">Facebook</a></dd>
-    <dd><a href="http://www.standunited.org/?keyword=petition%20website&matchtype=b&geoID=9004733&device=c&adpos=1t2&gclid=CNGms8zw1cwCFY5ZhgodcGQMjg">StandUnited</a></dd>
-    <dd><a href="http://www.ipetitions.com/">ipetition</a></dd>
-    <dd><a href="https://petitions.moveon.org/">MoveOn.org</a></dd>
-    <dd><a href="http://www.itas.kit.edu/pub/v/2009/liri09a.pdf">Research</a></dd> 
-    </dl>
-    </div>
+	<div id="footer">
+	    <div class="col-xs-6">
+		<h4>SUNY Albany:</h4>
+		<ul>
+		    <li><a href="http://www.albany.edu">Home Page</a></li>
+		    <li><a href="https://www.facebook.com/universityatalbany">Facebook</a></li>
+		    <li><a href="https://twitter.com/ualbany?lang=en">Twitter</a></li>
+		</ul>
+	    </div>
+	    <div class="col-xs-6">
+		<h4>Petitions:</h4>
+		<ul>
+		    <li><a href="https://petitions.whitehouse.gov">We The People</a></li>
+		    <li><a href="https://www.change.org">Change.org</a></li>
+		    <li><a href="https://petitions.moveon.org/">MoveOn.org</a></li>
+		    <li><a href="http://www.standunited.org/">StandUnited</a></li>
+		    <li><a href="http://www.ipetitions.com/">ipetition</a></li>
+		    <!-- why is this here? <li><a href="http://www.itas.kit.edu/pub/v/2009/liri09a.pdf">Research</a></li>  -->
+		</ul>
+	    </div>
+	    <div class="clear"></div>
+	</div>
 
     </body>
 </html>

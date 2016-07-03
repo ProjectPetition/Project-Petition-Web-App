@@ -15,9 +15,6 @@ var NavigationBar = React.createClass({
 								<a href="index">Home</a>
 							</li>
 							<li>
-								<a href="responses">Responses</a>
-							</li>
-							<li>
 								<a href="publications">Publications</a>
 							</li>
 							<li>

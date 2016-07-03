@@ -10,8 +10,8 @@
 	    <div class="container text-left">
 		<div class="col-lg-10 col-lg-offset-1" >  <!-- control size when website goes lg param. -->   <!-- "col-lg-8  col-lg-offset-2" offset push left side of padding space--> 
 		    <h2>Welcome to Project Petition</h2>
-		    <h4>This website makes it possible for interested users of We the People to quickly learn about trending petitions, and to track petitions of interest over their 30 day life span.  Once 30 days is past, a petition either achieves the threshold of 100,000 signatures and thus merits a response from the Obama Administration or the petition is removed from the We the People petition platform.</h4>
-		    <h4>Trending petition: <a href="${p[0].url}">"${p[0].title}"</a></h4>
+		    <h4>Project Petition is a research group at SUNY Albany studying e-petitioning and and its impact on government and society. This website provides data about recent petitions posted on We the People (petitions.whitehouse.gov) as well as Project Petition research.</h4>
+		    <h4 style="padding-top: 15px;">Trending petition: <a href="${p[0].url}">"${p[0].title}"</a></h4>
 		</div>
 	    </div>
 	</div>
@@ -47,7 +47,7 @@
 		<div class="row trends-row">
 		    <g:each in="${0..1}" var="i2">
 			<div class="col-xs-6">
-			    <h4><a href="${p[2 * i + i2].url}">${p[2 * i + i2].title}</a></h4>
+			    <h4><a href="${p[2 * i + i2].url}" title="${p[2 * i + i2].title}">${p[2 * i + i2].title}</a></h4>
 			    <p>Deadline: ${new java.util.Date((long)p[2 * i + i2].deadline * 1000).format("MMM d yyyy, h:mm a")}</p>
 			    <div class="forecast" id="graph${2 * i + i2}" style="text-align:center"></div>
 			</div>
@@ -120,7 +120,7 @@
 	     var data = google.visualization.arrayToDataTable([
 		 ['Issue', 'Frequency', { role: 'annotation' } ],
         	 <g:each in="${issueCounts.keySet()}" var="name">
-		 ['${name}', ${issueCounts[name]}, '${name.replace("&amp;", "and")}'],
+		 ['${name.replace("&amp;", "and")}', ${issueCounts[name]}, '${name.replace("&amp;", "and")}'],
         	 </g:each>
              ]);
 

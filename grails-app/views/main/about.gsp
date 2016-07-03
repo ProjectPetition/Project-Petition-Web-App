@@ -178,7 +178,6 @@
           <p id="body_content">
             <strong> Umair Ahmad </strong>  is an undergraduate student pursuing a Bachelor of Science in Computer Science degree at the University at Albany. His interests are software engineering, database administration, and web development.
           </p>
-          <a href="http://www.albany.edu/communication/t_harrison.php/">More Info</a>
         
       </div>
       <div class="col-sm-4">
@@ -193,7 +192,7 @@
           <p id="body_content">
             <strong> William May </strong> studies economics as an undergraduate at the State University of New York, Albany. He is interested in using computational statistics and mathematical modeling to better understand processes in economics and politics.
           </p>
-          <a href="http://www.albany.edu/communication/t_harrison.php/">More Info</a>
+          <a href="http://97.107.129.33/">Website</a>
         
       </div>
       <div class="col-sm-4">
@@ -207,7 +206,7 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Jinal Patel </strong> is a current graduate student at SUNY Albany in Computer Science Major. Her interest area is web development with technologies such as HTML, CSS, Javascript, Java, J2EE. 
+            <strong> Jinal Patel </strong> is a current graduate student at SUNY Albany studying Computer Science. Her area of interest is web development with technologies such as HTML, CSS, Javascript, Java, J2EE. 
           </p>
           
       </div>
@@ -224,7 +223,7 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Ji Yong Park </strong>  current undergraduate student at SUNY Albany in Computer Science Major. His interests are software engineering, sever development, and web development.
+            <strong> Ji Yong Park </strong>  is currently an undergraduate student at SUNY Albany in majoring in Computer Science. His interests are software engineering, server development, and web development.
           </p>
           
         
@@ -239,7 +238,7 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Kyungchan Lim </strong>  is student at SUNY at Albany studying in Computer Science. His interest is in web development and software engineering.
+            <strong> Kyungchan Lim </strong>  is a student at SUNY at Albany studying in Computer Science. His interest is in web development and software engineering.
           </p>
           
         

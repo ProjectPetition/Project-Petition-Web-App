@@ -65,17 +65,15 @@ class MainController
 		render (view: 'signup.gsp')
 	}
 
-	def download() {
-
-		//def file = new File("/assets/documents")
-
-		//if (file.exists()) {
-		//	response.setContentType("application/octet-stream")
-		//	response.setHeader("Content-disposition", "filename=${file.name}")
-		//	response.outputStream << file.bytes
-		//	return
-		//}
-		//render(file: new File(absolutePath), fileName: "book.pdf")
+        def download(String fname) {
+                //def file = new File("/home/will/research/ppet/Project-Petition-Web-App/grails-app/assets/documents/${fname}")
+                def file = new File("/network/rit/lab/projpet/will/Project-Petition-Web-App/grails-app/assets/documents/${fname}")
+		if (file.exists()) {
+			response.setContentType("application/pdf")
+                        response.setHeader("Content-disposition", "attachment;filename=\"${fname}\"")
+			response.outputStream << file.bytes
+		}
+                else render "Error!"
 	}
 
 

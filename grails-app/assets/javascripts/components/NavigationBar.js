@@ -23,7 +23,8 @@ var NavigationBar = React.createClass({
 						</ul>
 
 						<ul className="nav navbar-nav navbar-right">
-						</ul>
+			                        </ul>
+			                        <img id="ualbany_logo_wide" src="/assets/ualbany_logo_wide.png" />
 					</div>
 				</div>
 			</nav>

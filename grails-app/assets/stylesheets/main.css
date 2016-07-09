@@ -9,6 +9,31 @@ h4 {
     line-height: 150%;
 }
 
+body {
+    padding-top: 40px;
+    padding-bottom: 0px;   /*for footer make it zero*/
+    background-color: #eee;
+}
+
+#ualbany_logo_wide {
+    width: 350px;
+    float: right;
+    margin-top: 4px;
+    margin-right: -30px;
+}
+
+.jumbotron {
+    padding-top: 0;
+    height: 250px;
+    color: #fff;
+}
+.jumbotron h2 {margin-top: 35px;}
+
+.header-container {
+    text-shadow: #000 0.1em 0.1em 0.7em;
+    margin-bottom: 1em;
+}
+
 #footer {
     font-size: 14px;
     text-align: center;
@@ -27,24 +52,6 @@ h4 {
 }
 #footer a {
   color: white;
-}
-
-body {
-  padding-top: 40px;
-  padding-bottom: 0px;   /*for footer make it zero*/
-  background-color: #eee;
-}
-
-.jumbotron {
-    padding-top: 0;
-    height: 250px;
-    color: #fff;
-}
-.jumbotron h2 {margin-top: 35px;}
-
-.header-container {
-  text-shadow: #000 0.1em 0.1em 0.7em;
-  margin-bottom: 1em;
 }
 
 .trends-row h4 {

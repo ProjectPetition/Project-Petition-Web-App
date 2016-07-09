@@ -119,7 +119,7 @@
 	      * data.addColumn('number');*/
 	     var data = google.visualization.arrayToDataTable([
 		 ['Issue', 'Frequency', { role: 'annotation' } ],
-        	 <g:each in="${issueCounts.keySet()}" var="name">
+        	 <g:each in="${issueCounts.keySet().sort{-issueCounts[it]}}" var="name">
 		 ['${name.replace("&amp;", "and")}', ${issueCounts[name]}, '${name.replace("&amp;", "and")}'],
         	 </g:each>
              ]);

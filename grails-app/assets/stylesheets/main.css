@@ -34,6 +34,17 @@ body {
     margin-bottom: 1em;
 }
 
+.profile_image {
+    margin-top: 15px;
+    width: 260px;
+    overflow: hidden;
+}
+
+.profile_image_div {
+    height: 260px;
+    overflow-y: hidden;
+}
+
 #footer {
     font-size: 14px;
     text-align: center;

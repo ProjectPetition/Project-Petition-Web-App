@@ -30,15 +30,6 @@
     font-style: italic;
     /* text-align: center; */
     margin-top: 10px;
-
-  }
-  #image_content{
-    margin-top: 15px;
-    height: 260px;
-    width: 260px;
-    overflow: hidden;
-
-
   }
   </style>
 </head>
@@ -53,7 +44,7 @@
           <p id="header_content">
           This website makes it possible for interested users of We the People to quickly learn about trending petitions, and to track petitions of interest over their 30 day life span. Once 30 days is past, a petition either achieves the threshold of 100,000 signatures and thus merits a response from the Obama Administration or the petition is removed from the We the People petition platform.
           <br><br>
-          This website also presents the work of Project Petition, a research project staffed by students and faculty from UAlbany's Departments of Computer Science, Economics, Informatics, and Communication. Our team, comprised now of 6 faculty members along with two doctoral students, 2 undergraduate students  and other graduate students, has been actively exploring e-petitioning systems since 2013.
+          This website also presents the work of Project Petition, a research project staffed by students and faculty from UAlbany's Departments of Computer Science, Economics, Informatics, and Communication. Our team, comprised now of 6 faculty members along with two doctoral students, 2 undergraduate students and other graduate students, has been actively exploring e-petitioning systems since 2013.
           <br><br>
           Our work has focused on:
           <br>
@@ -86,9 +77,9 @@
           <a href="http://www.albany.edu/communication/t_harrison.php/">More Info</a>
        
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 profile_image_div">
         
-          <asset:image id="image_content" src="TeresaHarrison.jpg" alt="Teresa Harrison"/>
+          <asset:image class="profile_image" src="TeresaHarrison.jpg" alt="Teresa Harrison"/>
         
       </div>
   </div>
@@ -97,13 +88,13 @@
       <div class="col-sm-8">
        
           <p id="body_content">
-             <strong> S.S Ravi </strong> received his Ph.D. in Computer Science from the University of Pittsburgh, PA, in 1984. Since September 1984, he has been a faculty member in the Computer Science Department at the University at Albany -- State University of New York (UAlbany), where he is currently a Distinguished Teaching Professor.  During his sabbaticals from UAlbany, he has held visiting positions at Los Alamos National Laboratory and Virginia Bioinformatics Institute (which is part of Virginia Tech). His areas of interest include design and analysis of algorithms, data mining, network science, discrete dynamical systems, wireless networks and fault-tolerant computing.
+             <strong> S.S Ravi </strong> received his Ph.D. in Computer Science from the University of Pittsburgh, PA, in 1984. Since September 1984, he has been a faculty member in the Computer Science Department at the University at Albany -- State University of New York (UAlbany), where he is currently a Distinguished Teaching Professor. During his sabbaticals from UAlbany, he has held visiting positions at Los Alamos National Laboratory and Virginia Bioinformatics Institute (which is part of Virginia Tech). His areas of interest include design and analysis of algorithms, data mining, network science, discrete dynamical systems, wireless networks and fault-tolerant computing.
           </p>
           
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 profile_image_div">
          
-        <asset:image id="image_content" src="Ravi.jpg" alt="S.S Ravi" />
+        <asset:image class="profile_image" src="Ravi.jpg" alt="S.S Ravi" />
         
       </div>
   </div>
@@ -111,16 +102,16 @@
       <div class="col-sm-8">
        
           <p id="body_content">
-            <strong>Dr. Feng Chen</strong> is currently an assistant professor at the Computer Science department at University at Albany. He was previously a postdoctoral researcher in the Event and Pattern Detection (EPD) Laboratory and the iLab at Carnegie Mellon University, where he worked with Dr. Daniel B. Neill and Dr. Ramayya Krishnan. He got his Ph.D. from the Computer Science Department at Virginia Polytechnic Institute and State University under the advising of Dr. Chang-Tien Lu in Dec. 2012. 
+            <strong>Dr. Feng Chen</strong> is currently an assistant professor at the Computer Science department at University at Albany. He was previously a postdoctoral researcher in the Event and Pattern Detection (EPD) Laboratory and the iLab at Carnegie Mellon University, where he worked with Dr. Daniel B. Neill and Dr. Ramayya Krishnan. He got his Ph.D. from the Computer Science Department at Virginia Polytechnic Institute and State University under the advising of Dr. Chang-Tien Lu in Dec. 2012. 
 
           </p>
           <a href="http://www.cs.albany.edu/~fchen/
 "/>More Info</a>
           
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4 profile_image_div">
       
-        <asset:image id="image_content" src="Feng_Photo2.jpg" alt="Catherine Dumas" />
+        <asset:image class="profile_image" src="Feng_Photo2.jpg" alt="Catherine Dumas" />
       
     </div>
   </div>
@@ -134,9 +125,9 @@
           <br>
           <a href="https://github.com/CatherineDumas"/>GitHub</a>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4 profile_image_div">
       
-        <asset:image id="image_content" src="CatherineDumas.jpg" alt="Catherine Dumas" />
+        <asset:image class="profile_image" src="CatherineDumas.jpg" alt="Catherine Dumas" />
 
     </div>
   </div>
@@ -144,13 +135,12 @@
       <div class="col-sm-8">
        
           <p id="body_content">
-            <strong>Loni Hagen </strong> is a PhD Candidate in Informatics with a primary specialization in e-government, natural language processing, machine learning, and social network analysis. She has conducted a natural language processing and data mining study to explore the topical structure of e-petitions. Her current research includes concept identification system, topic and issue extraction, and semantic-frame parsing of petition text.
-          </p>
+              <strong>Loni Hagen </strong> is an assistant professor at the School of Information at University of South Florida. She uses natural language processing and data mining techniques to automatically extract information from e-petition texts and further provides interpretation of them in context. Her current research interests include developing new ways of organizing opinions expressed by the public online, and introducing computational techniques to analyze big textual data for policy analysis and policy decision-making.</p>
         
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4 profile_image_div">
       
-        <asset:image id="image_content" src="LoniHagen.jpg" alt="Catherine Dumas"/>
+        <asset:image class="profile_image" src="LoniHagen.jpg" alt="Catherine Dumas"/>
      
     </div>
   </div>
@@ -158,12 +148,12 @@
     <div class="col-sm-8">
       
         <p id="body_content">
-        <strong>Timothy T. Fake  </strong> is a graduate of the University at Albany with a BA in Philosophy and an MS in Computer Science.  He currently works as a Senior Software Engineer for General Dynamics but collaborates regularly on e-petitioning research projects.  His major intellectual interests are data mining, machine learning, and their applications to the natural sciences.
+        <strong>Timothy T. Fake</strong> is a graduate of the University at Albany with a BA in Philosophy and an MS in Computer Science. He currently works as a Senior Software Engineer for General Dynamics but collaborates regularly on e-petitioning research projects. His major intellectual interests are data mining, machine learning, and their applications to the natural sciences.
       </p>
     </div>
-  <div class="col-sm-4">
+  <div class="col-sm-4 profile_image_div">
     
-      <asset:image id="image_content" src="Tim pic 2015.png" alt="Tim" />
+      <asset:image class="profile_image" src="Tim pic 2015.png" alt="Tim" />
    
   </div>
 </div>
@@ -176,13 +166,12 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Umair Ahmad </strong>  is an undergraduate student pursuing a Bachelor of Science in Computer Science degree at the University at Albany. His interests are software engineering, database administration, and web development.
-          </p>
+              <strong>Akanksha Atrey</strong> is an undergraduate in her senior year at University at Albany. She is pursuing a double major in mathematics and computer science. With a keen interest in research after being a part of numerous projects in her undergrad, she intends on pursuing a PhD in computer science. Her interests lie in cryptography, security and privacy, data mining and social computing.</p>
         
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 profile_image_div">
        
-          <asset:image id="image_content" src="Umair.jpg" alt="Umair Ahmad"/>
+          <asset:image class="profile_image" src="akanksha.jpg" alt="Akanksha Atrey"/>
         
       </div>
   </div>
@@ -190,30 +179,13 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> William May </strong> studies economics as an undergraduate at the State University of New York, Albany. He is interested in using computational statistics and mathematical modeling to better understand processes in economics and politics.
-          </p>
+            <strong> William May </strong> studies economics as an undergraduate at the State University of New York, Albany. He is interested in using computational statistics and mathematical modeling to better understand processes in economics and politics.</p>
           <a href="http://97.107.129.33/">Website</a>
         
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 profile_image_div">
         
-          <asset:image id="image_content" src="willmay.jpg" alt="William May"/>
-        
-      </div>
-  </div>
-
-   <div class="row">
-      <div class="col-sm-8">
-        
-          <p id="body_content">
-            <strong> Jinal Patel </strong> is a current graduate student at SUNY Albany studying Computer Science. Her area of interest is web development with technologies such as HTML, CSS, Javascript, Java, J2EE. 
-          </p>
-          
-      </div>
-      <div class="col-sm-4">
-        
-        <asset:image id="image_content" src="Jinal.jpeg" alt="Jinal Patel"/>
-  
+          <asset:image class="profile_image" src="willmay.jpg" alt="William May"/>
         
       </div>
   </div>
@@ -223,14 +195,14 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Ji Yong Park </strong>  is currently an undergraduate student at SUNY Albany in majoring in Computer Science. His interests are software engineering, server development, and web development.
+            <strong> Ji Yong Park </strong> is currently an undergraduate student at SUNY Albany in majoring in Computer Science. His interests are software engineering, server development, and web development.
           </p>
           
         
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 profile_image_div">
        
-          <asset:image id="image_content" src="Ji.jpg" alt="Ji Yong Park"/>
+          <asset:image class="profile_image" src="Ji.jpg" alt=""/>
         
       </div>
   </div>
@@ -238,14 +210,14 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Kyungchan Lim </strong>  is a student at SUNY at Albany studying in Computer Science. His interest is in web development and software engineering.
+            <strong> Kyungchan Lim </strong> is a student at SUNY at Albany studying in Computer Science. His interest is in web development and software engineering.
           </p>
           
         
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 profile_image_div">
        
-          <asset:image id="image_content" src=".jpg" alt="KyungchanLim"/>
+          <asset:image class="profile_image" src=".jpg" alt=""/>
         
       </div>
   </div>

@@ -10,7 +10,7 @@
 	    <div class="container text-left">
 		<div class="col-lg-10 col-lg-offset-1" >  <!-- control size when website goes lg param. -->   <!-- "col-lg-8  col-lg-offset-2" offset push left side of padding space--> 
 		    <h2>Welcome to Project Petition</h2>
-		    <h4>Project Petition is a research group at SUNY Albany studying e-petitioning and and its impact on government and society. This website provides data about recent petitions posted on We the People (petitions.whitehouse.gov) as well as Project Petition research.</h4>
+		    <h4>Project Petition is a research group at the University at Albany, SUNY, studying e-petitioning and and its impact on government and society. This website provides data about recent petitions posted on We the People (petitions.whitehouse.gov) as well as Project Petition research.</h4>
 		    <h4 style="padding-top: 15px;">Trending petition: <a href="${p[0].url}">"${p[0].title}"</a></h4>
 		</div>
 	    </div>

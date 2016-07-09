@@ -29,7 +29,7 @@
 
 	<div id="footer">
 	    <div class="col-xs-6">
-		<h4>SUNY Albany:</h4>
+		<h4>University at Albany:</h4>
 		<ul>
 		    <li><a href="http://www.albany.edu">Home Page</a></li>
 		    <li><a href="https://www.facebook.com/universityatalbany">Facebook</a></li>

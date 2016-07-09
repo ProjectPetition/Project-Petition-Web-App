@@ -118,17 +118,17 @@
              /* data.addColumn('string', 'Topping');
 	      * data.addColumn('number');*/
 	     var data = google.visualization.arrayToDataTable([
-		 ['Issue', 'Frequency', { role: 'annotation' } ],
+		 ['Issue', 'Number of Petitions', { role: 'annotation' } ],
         	 <g:each in="${issueCounts.keySet().sort{-issueCounts[it]}}" var="name">
 		 ['${name.replace("&amp;", "and")}', ${issueCounts[name]}, '${name.replace("&amp;", "and")}'],
         	 </g:each>
              ]);
 
              // Set chart options
-             var options = {'title':'Issue:',
-			    'width':800,
-			    'height':600,
-			    hAxis: {title: "Frequency",
+             var options = {'title': 'Current Petition Issues:',
+			    'width': 800,
+			    'height': 600,
+			    hAxis: {title: 'Number of Petitions',
 				    format: '',
 				    minValue: 0,
 				    gridlines: {count: -1}},

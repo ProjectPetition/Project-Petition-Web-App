@@ -179,7 +179,7 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> William May </strong> studies economics as an undergraduate at the State University of New York, Albany. He is interested in using computational statistics and mathematical modeling to better understand processes in economics and politics.</p>
+            <strong>William May</strong> studies economics as an undergraduate at the State University of New York, Albany. He is interested in using computational statistics and mathematical modeling to better understand processes in economics and politics.</p>
           <a href="http://97.107.129.33/">Website</a>
         
       </div>
@@ -195,10 +195,7 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Ji Yong Park </strong> is currently an undergraduate student at SUNY Albany in majoring in Computer Science. His interests are software engineering, server development, and web development.
-          </p>
-          
-        
+            <strong>Ji Yong Park</strong> is currently an undergraduate student at SUNY Albany majoring in Computer Science. His interests are software engineering, server development, and web development.</p>
       </div>
       <div class="col-sm-4 profile_image_div">
        
@@ -210,8 +207,7 @@
       <div class="col-sm-8">
         
           <p id="body_content">
-            <strong> Kyungchan Lim </strong> is a student at SUNY at Albany studying in Computer Science. His interest is in web development and software engineering.
-          </p>
+            <strong>Kyungchan Lim</strong> is a student at SUNY at Albany studying Computer Science. His interests are web development and software engineering.</p>
           
         
       </div>
